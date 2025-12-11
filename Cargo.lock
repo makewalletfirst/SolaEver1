@@ -7327,7 +7327,7 @@ dependencies = [
  "spl-generic-token",
  "static_assertions",
  "strum",
- "strum_macros",
+ "strum_macros 0.27.2",
  "tempfile",
  "test-case",
  "thiserror 2.0.17",
@@ -8387,7 +8387,7 @@ dependencies = [
  "spl-memo-interface",
  "static_assertions",
  "strum",
- "strum_macros",
+ "strum_macros 0.27.2",
  "sys-info",
  "sysctl",
  "tempfile",
@@ -9292,7 +9292,7 @@ dependencies = [
  "spl-pod",
  "static_assertions",
  "strum",
- "strum_macros",
+ "strum_macros 0.27.2",
  "tar",
  "tempfile",
  "test-case",
@@ -10544,7 +10544,7 @@ dependencies = [
  "spl-generic-token",
  "static_assertions",
  "strum",
- "strum_macros",
+ "strum_macros 0.27.2",
  "symlink",
  "tempfile",
  "test-case",
@@ -12492,7 +12492,7 @@ version = "0.24.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "063e6045c0e62079840579a7e47a355ae92f60eb74daaf156fb1e84ba164e63f"
 dependencies = [
- "strum_macros",
+ "strum_macros 0.24.3",
 ]
 
 [[package]]
@@ -12506,6 +12506,18 @@ dependencies = [
  "quote",
  "rustversion",
  "syn 1.0.109",
+]
+
+[[package]]
+name = "strum_macros"
+version = "0.27.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "7695ce3845ea4b33927c055a39dc438a45b059f7c1b3d91d38d10355fb8cbca7"
+dependencies = [
+ "heck 0.5.0",
+ "proc-macro2",
+ "quote",
+ "syn 2.0.110",
 ]
 
 [[package]]
